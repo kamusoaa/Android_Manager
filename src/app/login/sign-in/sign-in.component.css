@@ -1,0 +1,46 @@
+.container{
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+}
+.signin__form {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 35%;
+  background: #fafafa;
+}
+
+
+.form-group{
+  margin-left: 5%;
+  min-width: 400px;
+  margin-right: 5%;
+}
+.m-t-lg{
+  margin-left: 5%;
+  width: 136px;
+  height: 48px;
+}
+label {
+  font-size: .85rem;
+  text-transform: uppercase;
+  color: #ccc;
+}
+
+a{
+  font-size: .85rem;
+  color: #9E9E9E;
+  text-decoration: none;
+  border-bottom: 1px dashed #9E9E9E;
+}
+a:hover{
+  color: #3F51B5;
+  text-decoration: none;
+  border-bottom: 1px dashed #3F51B5;
+}
+
+
+.bottom-link{
+  margin-top: -8%;
+  margin-left: 40%;
+}

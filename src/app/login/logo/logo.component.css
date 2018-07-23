@@ -1,0 +1,112 @@
+.signup_container {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  background: white;
+  top: 50%;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70rem;
+  height: 40rem;
+  border-radius: 0.1875rem;
+  box-shadow: 0px 0.1875rem 0.4375rem rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+
+.signup__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.76);
+}
+
+.container__child {
+
+
+  width: 50%;
+  height: 100%;
+  color: #fff;
+}
+
+.signup__thumbnail {
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background: url(https://cdn1.iconfinder.com/data/icons/android-9/500/android_7-512.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+.thumbnail__logo,
+.thumbnail__content,
+.thumbnail__links {
+  position: relative;
+  z-index: 1;
+}
+
+.thumbnail__logo {
+  align-self: flex-start;
+}
+
+.logo__shape {
+  fill: #fff;
+}
+
+.logo__text {
+  display: inline-block;
+  font-size: .8rem;
+  font-weight: 700;
+  vertical-align: bottom;
+}
+
+.thumbnail__content {
+  align-self: center;
+  padding-left: 20%;
+  padding-top: 25%;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  color: white;
+}
+
+.heading--primary {
+  font-size: 1.999rem;
+}
+
+.heading--secondary {
+  font-size: 1.414rem;
+}
+
+.thumbnail__links {
+  align-self: flex-end;
+  width: 100%;
+}
+
+.thumbnail__links a {
+  font-size: 1rem;
+  color: #fff;
+}
+.thumbnail__links a:focus, .thumbnail__links a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sign-form{
+  width: 50%;
+  height: 100%;
+}
+
+

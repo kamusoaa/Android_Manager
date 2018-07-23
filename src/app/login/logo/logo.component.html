@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="signup_container">
+    <div class="container__child signup__thumbnail">
+      <div class="thumbnail__content text-center">
+        <h1 class="heading--primary">Plan your tasks</h1>
+        <h2 class="heading--secondary">and monitor their progress online</h2>
+      </div>
+
+      <div class="thumbnail__links">
+        <ul class="list-inline m-b-0 text-center">
+          <li><a href="https://vk.com/kozjava" target="_blank"><i class="fa fa-vk"></i></a></li>
+          <li><a href="https://github.com/kamusoaa/humanoid_manager" target="_blank"><i class="fa fa-github"></i></a></li>
+          <li><a href="mailto:andrei.drazdou@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+        </ul>
+      </div>
+      <div class="signup__overlay"></div>
+    </div>
+
+    <div class="sign-form">
+      <app-sign-up *ngIf="signValue"></app-sign-up>
+      <app-sign-in *ngIf="!signValue"></app-sign-in>
+    </div>
+
+  </div>
+</div>
